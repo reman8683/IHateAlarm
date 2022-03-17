@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.reman8683.ihatealarm.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "NoAlarm"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ihatealarm",
+  "version": "${version}",
+
+  "name": "I Hate Alarm",
+  "description": "I Hate Alarm I Hate Alarm I Hate Alarm I Hate Alarm I Hate Alarm I Hate Alarm I Hate Alarm",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/c/%EB%A0%88%EB%A7%A8/",
+    "sources": "https://github.com/reman8683"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/ihatealarm/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.reman8683.ihatealarm.IHateAlarm"
+    ]
+  },
+  "mixins": [
+    "ihatealarm.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
