@@ -6,11 +6,11 @@
   "name": "I Hate Alarm",
   "description": "I Hate Alarm I Hate Alarm I Hate Alarm I Hate Alarm I Hate Alarm I Hate Alarm I Hate Alarm",
   "authors": [
-    "Me!"
+    "REMAN"
   ],
   "contact": {
-    "homepage": "https://www.youtube.com/c/%EB%A0%88%EB%A7%A8/",
-    "sources": "https://github.com/reman8683"
+    "homepage": "https://github.com/reman8683",
+    "sources": "https://github.com/reman8683/IHateAlarm"
   },
 
   "license": "CC0-1.0",
@@ -29,7 +29,7 @@
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "1.18.x",
+    "minecraft": "1.19.x",
     "java": ">=17"
   },
   "suggests": {
